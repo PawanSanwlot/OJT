@@ -1,0 +1,39 @@
+Given the values:
+x = 2
+y = 5 
+z = 0
+
+Let's evaluate each expression:
+a. x == 2 
+This checks if (x) is equal to 2.
+(x) is 2, so ( x == 2 ) is true.
+
+b. x!= 5 
+This checks if (x) is not equal to 5.
+(x) is 2, so (x!= 5) is true.
+
+c. (x!= 5 && y >= 5)
+This checks if ( x ) is not equal to 5 and (y)  is greater than or equal to 5.
+(x) is 2, which is not equal to 5, so (x!= 5) is true.
+(y) is 5, which is greater than or equal to 5, so (y>= 5) is true.
+Since both conditions are true, ( x != 5 && y >= 5 ) is true.
+
+d. ( z != 0 || x == 2 )
+This checks if ( z ) is not equal to 0 or ( x) is equal to 2.
+- ( z ) is 0, so ( z != 0 ) is false.
+- ( x ) is 2, so ( x == 2 ) is true.
+- Since one of the conditions is true, ( z != 0 || x == 2 ) is true.
+
+e. ( !(y < 10) )
+This checks the negation of  y < 10.
+- y  is 5, which is less than 10, so  y < 10 is true.
+- The negation of true is false, so  !(y < 10) is false.
+
+Summary of results:
+- a. x == 2  is true
+- b. x != 5  is true
+- c. x != 5 && y >= 5 is true
+- d. z != 0 || x == 2  is true
+- e. !(y < 10) is false
+
+These are the evaluated results for the given expressions with the provided values of x ,  y , and z.
