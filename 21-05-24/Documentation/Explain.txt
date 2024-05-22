@@ -1,0 +1,75 @@
+Write a Java program to create a class called "Employee" with a name, salary, and hire date attributes, and a method to calculate years of service?
+
+Ans: To create a Java program that defines a class called Employee with attributes for name, salary, and hire date, and includes a method to calculate the years of service
+
+Explanation
+
+1. Attributes:
+
+name: Stores the name of the employee.
+salary: Stores the salary of the employee.
+hireDate: Stores the hire date of the employee, using LocalDate.
+2. Constructor:
+
+Initializes the name, salary, and hireDate attributes.
+
+3. Getters and Setters:
+
+Methods to get and set the name, salary, and hireDate attributes.
+
+4. 'YearsOfServic' Method:
+
+Uses LocalDate.now() to get the current date and Period.between(hireDate, currentDate) to calculate the difference in years between the hire date and the current date.
+
+5. 'displayInfo' Method:
+
+Prints the employee's name, salary, hire date, and years of service.
+
+6. 'main' Method:
+Creates an instance of Employee and displays the employee information.
+
+Steps to Compile and Run
+Save the code in a file named Employee.java.
+
+Open a terminal or command prompt and navigate to the directory containing Employee.java.
+
+Compile the code in terminal: javac Employee.java
+
+
+Run the compiled class: java Employee
+
+This will create an instance of the Employee class with sample data, calculate the years of service, and display the information.
+
+
+
+Write a Java program to create a class called "Library" with a collection of books and methods to add and remove books?
+
+ANS. To create a Java program that defines a class called Library with a collection of books and methods to add and remove books
+
+Book.java
+First, create a Book class to represent individual books.
+
+Library.java
+Next, create the Library class to manage a collection of Book objects.
+
+Explanation
+1. Book Class:
+
+Attributes: 'title' and 'author'.
+Constructor: Initializes the 'title' and 'author'.
+Getters and Setters: Accessor and mutator methods for 'title' and 'author'.
+'toString' Method: Provides a string representation of a Book object.
+
+2. Library Class:
+
+Attribute: 'books' - a list to store 'Book' objects.
+
+Constructor: Initializes the 'books' list.
+
+'addBook' Method: Adds a 'Book' to the 'books' list and prints a confirmation message.
+
+'removeBook' Method: Removes a 'Book' from the 'books' list and prints a confirmation or error message.
+
+displayBooks Method: Prints all books currently in the library.
+
+main Method: Demonstrates the usage of the Library class by adding, removing, and displaying books.
