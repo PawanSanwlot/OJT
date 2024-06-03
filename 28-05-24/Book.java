@@ -43,7 +43,7 @@ public class Book {
     // Main method to test the Book class
     public static void main(String[] args) {
         // Creating a new book
-        Book book = new Book("978-0134685991", "Effective Java", "Joshua Bloch");
+        Book book = new Book("978-0134685991", "Effective Java", "Pavan");
 
         // Displaying book details
         book.displayBookDetails();
