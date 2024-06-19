@@ -6,23 +6,23 @@ public class Student {
 
     // Default constructor
     public Student() {
-        this.name = "Unknown";
-        this.age = 0;
-        this.grade = 'U'; // 'U' for undefined
+        this.name = "Pavan";
+        this.age = 16;
+        this.grade = 'A'; // 'U' for undefined
     }
 
     // Constructor with name parameter
     public Student(String name) {
         this.name = name;
-        this.age = 0;
-        this.grade = 'U';
+        this.age = 20;
+        this.grade = 'B';
     }
 
     // Constructor with name and age parameters
     public Student(String name, int age) {
         this.name = name;
         this.age = age;
-        this.grade = 'U';
+        this.grade = 'B';
     }
 
     // Constructor with name, age, and grade parameters
@@ -51,9 +51,9 @@ public class Student {
     public static void main(String[] args) {
         // Using different constructors to create Student objects
         Student student1 = new Student();
-        Student student2 = new Student("Alice");
-        Student student3 = new Student("Bob", 20);
-        Student student4 = new Student("Charlie", 22, 'A');
+        Student student2 = new Student("Shibnu");
+        Student student3 = new Student("Hari", 20);
+        Student student4 = new Student("Moorthy", 22, 'C');
 
         // Displaying the values using getter methods
         System.out.println("Student 1: Name = " + student1.getName() + ", Age = " + student1.getAge() + ", Grade = "
