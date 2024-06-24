@@ -26,6 +26,21 @@ class Book {
     public String toString() {
         return "Title: " + title + ", Author: " + author;
     }
+
+    public Object getIsbn() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getIsbn'");
+    }
+
+    public boolean isAvailable() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'isAvailable'");
+    }
+
+    public void setAvailable(boolean b) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setAvailable'");
+    }
 }
 
 // Library class to manage a list of books
