@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.logo {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    padding: 10px;
+    width: 60%;
+}
+
+.nav-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.post {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-author {
+    font-weight: bold;
+}
+
+.post-time {
+    color: #555;
+}
+
+.post-content {
+    margin-bottom: 20px;
+}
+
+.post-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.post-stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar-right {
+    width: 200px;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.team-header {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.team-member {
+    margin-bottom: 15px;
+}
