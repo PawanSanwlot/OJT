@@ -1,3 +1,229 @@
+
+:root {
+    --color-primary: #f857a8;
+    --color-secondary: #ff5858;
+    --color-neutral-lt: #fff;
+    --color-neutral-med: #ddd;
+    --color-neutral-dk: #444;
+    --headings-font: "Saira Semi Condensed", sans-serif;
+    --shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes logo-hover {
+  20% {
+    padding-right: 0em;
+  }
+  100% {
+    padding-right: 5em;
+  }
+}
+
+button {
+  background: none;
+  box-shadow: none;
+  border: none;
+  cursor: pointer;
+}
+
+button:focus,
+input:focus {
+  outline: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.5em;
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  height: 100vh;
+}
+
+#home {
+  background-color: #ddd;
+}
+
+#about {
+  background-color: #aaa;
+}
+
+#work {
+  background-color: #888;
+}
+
+#contact {
+  background-color: #666;
+}
+
+.skew {
+  transform: skew(-20deg);
+}
+
+.un-skew {
+  transform: skew(20deg);
+}
+
+#nav-wrapper {
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+#nav {
+  background-color: var(--color-neutral-lt);
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--headings-font);
+  height: 4em;
+  overflow: hidden;
+}
+
+#nav.nav-visible {
+  height: 100%;
+  overflow: auto;
+}
+
+.nav {
+  display: flex;
+  height: 4em;
+  line-height: 4em;
+  flex-grow: 1;
+}
+
+.nav-link,
+.logo {
+  padding: 0 1em;
+}
+
+span.gradient {
+  background: var(--color-primary);
+  background: -webkit-linear-gradient(45deg, var(--color-primary), var(--color-secondary));
+  background: linear-gradient(45deg, var(--color-primary), var(--color-secondary));
+  padding: 0 1em;
+  position: relative;
+  right: 1em;
+  margin-right: auto;
+}
+
+span.gradient:hover {
+  animation-name: logo-hover;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.57, 0.31, 0.85);
+}
+
+h1.logo {
+  font-weight: 300;
+  font-size: 1.75em;
+  line-height: 0.75em;
+  color: var(--color-neutral-lt);
+}
+
+h1.logo a,
+h1.logo a:active,
+h1.logo a:hover,
+h1.logo a:visited {
+  text-decoration: none;
+  color: var(--color-neutral-lt);
+}
+
+.nav-link {
+  text-transform: uppercase;
+  text-align: center;
+  border-top: 0.5px solid var(--color-neutral-med);
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.btn-nav {
+  color: var(--color-primary);
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+@media (min-width: 800px) {
+  #nav-wrapper {
+    overflow: hidden;
+  }
+
+  #nav {
+    overflow: hidden;
+    flex-direction: row;
+  }
+
+  .nav-link {
+    border-top: none;
+  }
+
+  .right {
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    left: 1.5em;
+    height: auto;
+  }
+
+  .btn-nav {
+    display: none;
+  }
+
+  .nav a:link,
+  .nav a:visited,
+  .nav a:active.active {
+    background: var(--color-primary);
+    background: -webkit-linear-gradient(45deg, var(--color-primary), var(--color-secondary));
+    background: linear-gradient(45deg, var(--color-primary), var(--color-secondary));
+    color: #fff;
+  }
+
+  .nav-link-span {
+    transform: skew(20deg);
+    display: inline-block;
+  }
+
+  .nav-link {
+    transform: skew(-20deg);
+    color: #777;
+    text-decoration: none;
+  }
+
+  .nav-link:last-child {
+    padding-right: 3em;
+  }
+
+  a:hover.nav-link:not(.active) {
+    color: var(--color-neutral-dk);
+    background: var(--color-neutral-med);
+    background: linear-gradient(45deg, var(--color-neutral-lt), #ddd);
+  }
+}
+
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -8,8 +234,8 @@ body {
 
 .sidebar {
     width: 200px;
-    background-color: #f1f1f1;
-    padding: 20px;
+    background-color: #dfc2c2;
+    padding: 20px;  
 }
 
 .logo {
@@ -31,12 +257,138 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .search-bar {
     padding: 10px;
     width: 60%;
+}
+
+.nav-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.post {
+    border: 1px solid #ddd;
+    margin-left: 20%;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    height: 60%;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-author {
+    font-weight: bold;
+}
+
+.post-time {
+    color: #555;
+}
+
+.post-content {
+    margin-bottom: 20px;
+}
+
+.post-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.post-stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar-right {
+    width: 200px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-top: 10vh;
+    margin-bottom: 2px;
+
+}
+
+.team-header {
+    font-weight: bold;
+    margin-bottom: 50px;
+    
+}
+
+.team-member {
+    margin-bottom: 15px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: #f6eded;
+    padding: 20px;
+    position: fixed;
+    margin-top:8vh;
+}
+
+.logo {
+    height: 50px;
+    width: 50%;
+    margin-bottom: 20px;
+    margin-top: 10vh;
+}
+
+.menu-item {
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 10vh;
+}
+
+.search-bar {
+    padding: 10px;
+    width: 60%;
+    margin-left: 20%;
 }
 
 .nav-icons {
@@ -96,9 +448,13 @@ body {
 }
 
 .sidebar-right {
+    /* position: fixed; */
+    height: fit-content;
     width: 200px;
     background-color: #f1f1f1;
     padding: 20px;
+    margin-top: 8vh;
+    
 }
 
 .team-header {
