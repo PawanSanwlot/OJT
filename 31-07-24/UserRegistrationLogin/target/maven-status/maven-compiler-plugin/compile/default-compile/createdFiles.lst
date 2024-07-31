@@ -1,0 +1,4 @@
+signup\userregistrationlogin\resources\JakartaEE10Resource.class
+RegisterServlet.class
+signup\userregistrationlogin\JakartaRestConfiguration.class
+LoginServlet.class

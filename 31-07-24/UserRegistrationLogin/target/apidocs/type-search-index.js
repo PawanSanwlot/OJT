@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"signup.userregistrationlogin.resources","l":"JakartaEE10Resource"},{"p":"signup.userregistrationlogin","l":"JakartaRestConfiguration"},{"p":"<Unnamed>","l":"LoginServlet"},{"p":"<Unnamed>","l":"RegisterServlet"}];updateSearchResults();

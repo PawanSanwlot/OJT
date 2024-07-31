@@ -1,0 +1,88 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+@argfile
+-classpath
+'C:/Users/Pavan/.m2/repository/mysql/mysql-connector-java/8.0.30/mysql-connector-java-8.0.30.jar;C:/Users/Pavan/.m2/repository/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.jar;C:/Users/Pavan/.m2/repository/jakarta/platform/jakarta.jakartaee-api/10.0.0/jakarta.jakartaee-api-10.0.0.jar;C:/Users/Pavan/.m2/repository/jakarta/platform/jakarta.jakartaee-web-api/10.0.0/jakarta.jakartaee-web-api-10.0.0.jar;C:/Users/Pavan/.m2/repository/jakarta/el/jakarta.el-api/5.0.1/jakarta.el-api-5.0.1.jar;C:/Users/Pavan/.m2/repository/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/3.0.0/jakarta.servlet.jsp.jstl-api-3.0.0.jar;C:/Users/Pavan/.m2/repository/jakarta/faces/jakarta.faces-api/4.0.1/jakarta.faces-api-4.0.1.jar;C:/Users/Pavan/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0/jakarta.ws.rs-api-3.1.0.jar;C:/Users/Pavan/.m2/repository/jakarta/websocket/jakarta.websocket-api/2.1.0/jakarta.websocket-api-2.1.0.jar;C:/Users/Pavan/.m2/repository/jakarta/websocket/jakarta.websocket-client-api/2.1.0/jakarta.websocket-client-api-2.1.0.jar;C:/Users/Pavan/.m2/repository/jakarta/json/jakarta.json-api/2.1.0/jakarta.json-api-2.1.0.jar;C:/Users/Pavan/.m2/repository/jakarta/json/bind/jakarta.json.bind-api/3.0.0/jakarta.json.bind-api-3.0.0.jar;C:/Users/Pavan/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar;C:/Users/Pavan/.m2/repository/jakarta/ejb/jakarta.ejb-api/4.0.1/jakarta.ejb-api-4.0.1.jar;C:/Users/Pavan/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar;C:/Users/Pavan/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar;C:/Users/Pavan/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar;C:/Users/Pavan/.m2/repository/jakarta/interceptor/jakarta.interceptor-api/2.1.0/jakarta.interceptor-api-2.1.0.jar;C:/Users/Pavan/.m2/repository/jakarta/enterprise/jakarta.enterprise.cdi-api/4.0.1/jakarta.enterprise.cdi-api-4.0.1.jar;C:/Users/Pavan/.m2/repository/jakarta/enterprise/jakarta.enterprise.lang-model/4.0.1/jakarta.enterprise.lang-model-4.0.1.jar;C:/Users/Pavan/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar;C:/Users/Pavan/.m2/repository/jakarta/authentication/jakarta.authentication-api/3.0.0/jakarta.authentication-api-3.0.0.jar;C:/Users/Pavan/.m2/repository/jakarta/security/enterprise/jakarta.security.enterprise-api/3.0.0/jakarta.security.enterprise-api-3.0.0.jar;C:/Users/Pavan/.m2/repository/jakarta/jms/jakarta.jms-api/3.1.0/jakarta.jms-api-3.1.0.jar;C:/Users/Pavan/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.0/jakarta.activation-api-2.1.0.jar;C:/Users/Pavan/.m2/repository/jakarta/mail/jakarta.mail-api/2.1.0/jakarta.mail-api-2.1.0.jar;C:/Users/Pavan/.m2/repository/jakarta/resource/jakarta.resource-api/2.1.0/jakarta.resource-api-2.1.0.jar;C:/Users/Pavan/.m2/repository/jakarta/authorization/jakarta.authorization-api/2.1.0/jakarta.authorization-api-2.1.0.jar;C:/Users/Pavan/.m2/repository/jakarta/batch/jakarta.batch-api/2.1.1/jakarta.batch-api-2.1.1.jar;C:/Users/Pavan/.m2/repository/jakarta/servlet/jakarta.servlet-api/5.0.0/jakarta.servlet-api-5.0.0.jar;C:/Users/Pavan/.m2/repository/jakarta/servlet/jsp/jakarta.servlet.jsp-api/3.0.0/jakarta.servlet.jsp-api-3.0.0.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'C:/Users/Pavan/NetBeansProjects/UserRegistrationLogin/src/main/java;C:/Users/Pavan/NetBeansProjects/UserRegistrationLogin/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Pavan/NetBeansProjects/UserRegistrationLogin/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'UserRegistrationLogin 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' 'C:/Users/Pavan/NetBeansProjects/UserRegistrationLogin/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'UserRegistrationLogin 1.0-SNAPSHOT API'
+signup.userregistrationlogin
+signup.userregistrationlogin.resources
+'C:/Users/Pavan/NetBeansProjects/UserRegistrationLogin/src/main/java/LoginServlet.java'
+'C:/Users/Pavan/NetBeansProjects/UserRegistrationLogin/src/main/java/RegisterServlet.java'
+C:\Users\Pavan\.m2\repository\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar = 1721999170123
+C:\Users\Pavan\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar = 1721999171117
+C:\Users\Pavan\.m2\repository\jakarta\platform\jakarta.jakartaee-api\10.0.0\jakarta.jakartaee-api-10.0.0.jar = 1721994661985
+C:\Users\Pavan\.m2\repository\jakarta\platform\jakarta.jakartaee-web-api\10.0.0\jakarta.jakartaee-web-api-10.0.0.jar = 1721994667539
+C:\Users\Pavan\.m2\repository\jakarta\el\jakarta.el-api\5.0.1\jakarta.el-api-5.0.1.jar = 1721994663031
+C:\Users\Pavan\.m2\repository\jakarta\servlet\jsp\jstl\jakarta.servlet.jsp.jstl-api\3.0.0\jakarta.servlet.jsp.jstl-api-3.0.0.jar = 1721994663737
+C:\Users\Pavan\.m2\repository\jakarta\faces\jakarta.faces-api\4.0.1\jakarta.faces-api-4.0.1.jar = 1721994667557
+C:\Users\Pavan\.m2\repository\jakarta\ws\rs\jakarta.ws.rs-api\3.1.0\jakarta.ws.rs-api-3.1.0.jar = 1721994665125
+C:\Users\Pavan\.m2\repository\jakarta\websocket\jakarta.websocket-api\2.1.0\jakarta.websocket-api-2.1.0.jar = 1721994665284
+C:\Users\Pavan\.m2\repository\jakarta\websocket\jakarta.websocket-client-api\2.1.0\jakarta.websocket-client-api-2.1.0.jar = 1721994667076
+C:\Users\Pavan\.m2\repository\jakarta\json\jakarta.json-api\2.1.0\jakarta.json-api-2.1.0.jar = 1721994668014
+C:\Users\Pavan\.m2\repository\jakarta\json\bind\jakarta.json.bind-api\3.0.0\jakarta.json.bind-api-3.0.0.jar = 1721994667561
+C:\Users\Pavan\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar = 1721994668016
+C:\Users\Pavan\.m2\repository\jakarta\ejb\jakarta.ejb-api\4.0.1\jakarta.ejb-api-4.0.1.jar = 1721994667770
+C:\Users\Pavan\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar = 1721994668489
+C:\Users\Pavan\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar = 1721994668074
+C:\Users\Pavan\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar = 1721994668152
+C:\Users\Pavan\.m2\repository\jakarta\interceptor\jakarta.interceptor-api\2.1.0\jakarta.interceptor-api-2.1.0.jar = 1721994668623
+C:\Users\Pavan\.m2\repository\jakarta\enterprise\jakarta.enterprise.cdi-api\4.0.1\jakarta.enterprise.cdi-api-4.0.1.jar = 1721994668541
+C:\Users\Pavan\.m2\repository\jakarta\enterprise\jakarta.enterprise.lang-model\4.0.1\jakarta.enterprise.lang-model-4.0.1.jar = 1721994669471
+C:\Users\Pavan\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar = 1721994669071
+C:\Users\Pavan\.m2\repository\jakarta\authentication\jakarta.authentication-api\3.0.0\jakarta.authentication-api-3.0.0.jar = 1721994669714
+C:\Users\Pavan\.m2\repository\jakarta\security\enterprise\jakarta.security.enterprise-api\3.0.0\jakarta.security.enterprise-api-3.0.0.jar = 1721994668901
+C:\Users\Pavan\.m2\repository\jakarta\jms\jakarta.jms-api\3.1.0\jakarta.jms-api-3.1.0.jar = 1721994669016
+C:\Users\Pavan\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.0\jakarta.activation-api-2.1.0.jar = 1721994669116
+C:\Users\Pavan\.m2\repository\jakarta\mail\jakarta.mail-api\2.1.0\jakarta.mail-api-2.1.0.jar = 1721994669878
+C:\Users\Pavan\.m2\repository\jakarta\resource\jakarta.resource-api\2.1.0\jakarta.resource-api-2.1.0.jar = 1721994669366
+C:\Users\Pavan\.m2\repository\jakarta\authorization\jakarta.authorization-api\2.1.0\jakarta.authorization-api-2.1.0.jar = 1721994669960
+C:\Users\Pavan\.m2\repository\jakarta\batch\jakarta.batch-api\2.1.1\jakarta.batch-api-2.1.1.jar = 1721994671315
+C:\Users\Pavan\.m2\repository\jakarta\servlet\jakarta.servlet-api\5.0.0\jakarta.servlet-api-5.0.0.jar = 1721998836010
+C:\Users\Pavan\.m2\repository\jakarta\servlet\jsp\jakarta.servlet.jsp-api\3.0.0\jakarta.servlet.jsp-api-3.0.0.jar = 1721998836011
+C:\Users\Pavan\NetBeansProjects\UserRegistrationLogin\src\main\java\LoginServlet.java = 1721999507853
+C:\Users\Pavan\NetBeansProjects\UserRegistrationLogin\src\main\java\RegisterServlet.java = 1722147530375
+C:\Users\Pavan\NetBeansProjects\UserRegistrationLogin\src\main\java = 1721996644943
+C:\Users\Pavan\NetBeansProjects\UserRegistrationLogin\target\generated-sources\annotations = 1722151116890
+C:\Users\Pavan\NetBeansProjects\UserRegistrationLogin\target\apidocs\allclasses-index.html = 1722151349000
+C:\Users\Pavan\NetBeansProjects\UserRegistrationLogin\target\apidocs\allpackages-index.html = 1722151349011
+C:\Users\Pavan\NetBeansProjects\UserRegistrationLogin\target\apidocs\element-list = 1722151348802
+C:\Users\Pavan\NetBeansProjects\UserRegistrationLogin\target\apidocs\help-doc.html = 1722151349091
+C:\Users\Pavan\NetBeansProjects\UserRegistrationLogin\target\apidocs\index-all.html = 1722151349061
+C:\Users\Pavan\NetBeansProjects\UserRegistrationLogin\target\apidocs\index.html = 1722151348963
+C:\Users\Pavan\NetBeansProjects\UserRegistrationLogin\target\apidocs\LoginServlet.html = 1722151348752
+C:\Users\Pavan\NetBeansProjects\UserRegistrationLogin\target\apidocs\member-search-index.js = 1722151349037
+C:\Users\Pavan\NetBeansProjects\UserRegistrationLogin\target\apidocs\module-search-index.js = 1722151349014
+C:\Users\Pavan\NetBeansProjects\UserRegistrationLogin\target\apidocs\overview-summary.html = 1722151349067
+C:\Users\Pavan\NetBeansProjects\UserRegistrationLogin\target\apidocs\overview-tree.html = 1722151348958
+C:\Users\Pavan\NetBeansProjects\UserRegistrationLogin\target\apidocs\package-search-index.js = 1722151349016
+C:\Users\Pavan\NetBeansProjects\UserRegistrationLogin\target\apidocs\package-summary.html = 1722151348812
+C:\Users\Pavan\NetBeansProjects\UserRegistrationLogin\target\apidocs\package-tree.html = 1722151348820
+C:\Users\Pavan\NetBeansProjects\UserRegistrationLogin\target\apidocs\package-use.html = 1722151348929
+C:\Users\Pavan\NetBeansProjects\UserRegistrationLogin\target\apidocs\RegisterServlet.html = 1722151348800
+C:\Users\Pavan\NetBeansProjects\UserRegistrationLogin\target\apidocs\search.html = 1722151349064
+C:\Users\Pavan\NetBeansProjects\UserRegistrationLogin\target\apidocs\serialized-form.html = 1722151348889
+C:\Users\Pavan\NetBeansProjects\UserRegistrationLogin\target\apidocs\tag-search-index.js = 1722151349039
+C:\Users\Pavan\NetBeansProjects\UserRegistrationLogin\target\apidocs\type-search-index.js = 1722151349022
